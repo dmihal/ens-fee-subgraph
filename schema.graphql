@@ -2,4 +2,6 @@ type ENS @entity {
   id: ID!
   ethCollected: BigDecimal!
   usdCollected: BigDecimal!
+
+  ethPrice: BigDecimal!
 }
